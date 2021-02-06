@@ -1,7 +1,7 @@
 {
   "name": "google-maps-hooks",
-  "version": "1.0.4",
-  "main": "dist/index.js",
+  "version": "1.0.5",
+  "main": "./dist/index.js",
   "license": "MIT",
   "scripts": {
     "dev": "tsc -w",
