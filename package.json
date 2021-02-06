@@ -1,6 +1,6 @@
 {
   "name": "google-maps-hooks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.jsx",
   "license": "MIT",
   "scripts": {
@@ -8,7 +8,7 @@
     "build": "tsc"
   },
   "dependencies": {
-    "react": "^17.0.1",
-    "axios": "^0.21.1"
+    "axios": "^0.21.1",
+    "react": "^17.0.1"
   }
 }
