@@ -1,11 +1,24 @@
 {
   "name": "google-maps-hooks",
-  "version": "1.0.8",
+  "description": "A library of hooks to integrate your React App with Google Maps API",
+  "version": "1.0.9",
   "main": "./dist/index.js",
   "license": "MIT",
+  "author": "Marco Aurelio C. dos Santos <eu@marco.rio.br> (https://www.marco.rio.br)",
+  "contributors": [
+    "Marco Aurelio C. dos Santos <eu@marco.rio.br> (https://www.marco.rio.br)"
+  ],
+  "bugs": "https://github.com/santosmarco/google-maps-hooks/issues",
+  "repository": "https://github.com/santosmarco/google-maps-hooks",
+  "keywords": [
+    "react",
+    "hooks",
+    "google",
+    "maps"
+  ],
   "scripts": {
     "dev": "tsc -w",
-    "build": "rm -rf ./dist && tsc",
+    "build": "pjv -w && rm -rf ./dist && tsc",
     "prepublishOnly": "npm install && npm run build"
   },
   "dependencies": {
@@ -14,6 +27,7 @@
   },
   "devDependencies": {
     "@types/react": "^17.0.1",
+    "package-json-validator": "^0.6.3",
     "typescript": "^4.1.3"
   }
 }
