@@ -19,7 +19,7 @@
   "scripts": {
     "dev": "tsc -w",
     "build": "pjv -w && rm -rf ./dist && tsc",
-    "prepublishOnly": "npm install && npm run build"
+    "prepublishOnly": "yarn install && yarn run build"
   },
   "dependencies": {
     "axios": "^0.21.1",
